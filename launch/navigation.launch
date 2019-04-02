@@ -20,7 +20,7 @@
     <!-- BASE GLOBAL PLANNER -->
     <rosparam file="$(find custom_2dnav)/config/planner/global/navfn_planner.yaml" command="load" />
     <!-- BASE LOCAL PLANNER -->
-    <rosparam file="$(find custom_2dnav)/config/planner/local/trajectory_planner.yaml" command="load" />
+    <rosparam file="$(find custom_2dnav)/config/planner/local/dwa_planner.yaml" command="load" />
     <!-- RECOVERY -->
     <rosparam file="$(find custom_2dnav)/config/planner/recovery_behaviors.yaml" command="load"/>
 
