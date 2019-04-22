@@ -1,5 +1,5 @@
 <launch>
-  <arg name="bag_filename" default="$(find custom_2dnav)/bag/my_data.bag"/>
+  <arg name="bag_filename" default="$(find custom_2dnav)/bag/mapping_corridor.bag"/>
 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
     <remap from="scan" to="/scan"/>
